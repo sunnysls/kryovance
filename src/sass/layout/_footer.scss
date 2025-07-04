@@ -1,0 +1,237 @@
+footer {
+  background: var(--gray-0);
+  padding: 90px 0 10px;
+  position: relative;
+  overflow: hidden;
+  border-top: 1px solid #ecedee;
+
+  &::before {
+    position: absolute;
+    content: "";
+    left: 0px;
+    bottom: 85px;
+    background: url("../../assets/line-shape.png") no-repeat;
+    width: 100%;
+    height: 283px;
+    opacity: 0.6;
+  }
+
+  figure {
+    margin-bottom: 30px;
+    position: relative;
+  }
+
+  p {
+    font-size: 0.875rem;
+    color: var(--gray-700);
+    font-weight: 300;
+    line-height: 20px;
+    margin-bottom: 40px;
+    position: relative;
+  }
+
+  .footer_heading {
+    position: relative;
+    color: var(--gray-800);
+    font-size: 1.25rem;
+    font-weight: 400;
+    margin-bottom: 25px;
+  }
+
+  .footer_tabs {
+    position: relative;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+    li {
+      margin-bottom: 15px;
+
+      a {
+        color: var(--gray-700);
+        text-decoration: none;
+        font-size: 1rem;
+        transition: all 0.2s ease-out;
+
+        &:hover {
+          color: var(--primary-default);
+        }
+      }
+    }
+  }
+
+  .social {
+    position: relative;
+    display: flex;
+    gap: 25px;
+    list-style-type: none;
+    margin: 30px 0 0;
+    padding: 0;
+
+    li {
+      list-style-type: none;
+
+      a {
+        font-size: 1.7rem;
+        font-weight: 300;
+        color: var(--gray-800);
+        transition: all 0.2s ease-out;
+
+        &:hover {
+          color: var(--primary-default);
+        }
+      }
+    }
+  }
+
+  .footerproduct {
+    display: flex;
+    margin-bottom: 20px;
+    gap: 10px;
+    position: relative;
+  }
+
+  .footerPimg {
+    width: 70px;
+
+    figure {
+      border-radius: 5px;
+      border: 1px solid #d9d9d9;
+      background: var(--gray-0);
+      padding: 12px 8px;
+      overflow: hidden;
+      margin: 0;
+
+      img {
+        width: 100%;
+      }
+    }
+  }
+
+  .footerproduct-text {
+    h3 {
+      font-size: 0.938rem;
+      font-weight: 500;
+      margin-bottom: 10px;
+      line-height: 18px;
+
+      a {
+        color: var(--gray-800);
+
+        &:hover {
+          color: var(--primary-red);
+        }
+      }
+    }
+
+    p {
+      color: #6f7382;
+      font-size: 0.938rem;
+      font-weight: 300;
+      margin: 0;
+    }
+  }
+
+  .newsletter {
+    margin-bottom: 30px;
+
+    .form-floating {
+      display: flex;
+      gap: 15px;
+
+      .fa-envelope {
+        font-size: 20px;
+        color: #8f96a1;
+      }
+
+      .form-control {
+        background: none;
+        border: none;
+        border-radius: 0;
+        border-bottom: 1px solid #ecedee;
+        padding: 0;
+        color: var(--gray-800);
+        font-size: 1rem;
+        line-height: 16px;
+
+        &:focus {
+          background: none;
+          border-bottom: 1px solid #8f96a1;
+          box-shadow: none;
+          color: var(--gray-600);
+        }
+      }
+
+      label {
+        left: 34px;
+        width: 91%;
+        color: #8f96a1;
+        padding: 0;
+        top: -4px;
+      }
+    }
+
+    button {
+      margin-top: 20px;
+      display: inline-block;
+      font-size: 0.875rem;
+      font-weight: 500;
+      color: var(--gray-0);
+      border-radius: 5px;
+      background: var(--primary-default);
+      padding: 6px 25px;
+      box-shadow: none;
+      transition: all 0.2s ease-out;
+      border: none;
+      position: relative;
+
+      &:hover {
+        background: var(--primary-red);
+        transition: all 0.2s ease-out;
+      }
+    }
+  }
+
+  .last-footer {
+    position: relative;
+    border-top: 1px solid #ecedee;
+    margin-top: 50px;
+    padding: 30px 0 20px;
+
+    p {
+      color: var(--gray-600);
+      font-size: 1rem;
+      text-align: right;
+      margin: 0;
+      padding: 0;
+
+      span {
+        color: var(--primary-default);
+      }
+    }
+  }
+
+  .privacy_list {
+    position: relative;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 40px;
+
+    li {
+      margin: 0;
+
+      a {
+        color: #8f96a1;
+        text-decoration: none;
+        font-size: 1rem;
+        font-weight: 300;
+
+        &:hover {
+          color: var(--primary-default);
+        }
+      }
+    }
+  }
+}

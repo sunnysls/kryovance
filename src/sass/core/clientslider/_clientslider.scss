@@ -1,0 +1,67 @@
+.client-flex{
+    padding: 80px 0 80px;
+    position: relative;
+
+    &::before{
+        position: absolute;
+        left: -30px;
+        top: -50px;
+        content: "";
+        background: url('../../../assets/lines.svg') no-repeat;
+        width: 490px;
+        height: 437px;
+        z-index: -9;
+    }
+
+    .heading-main{
+        margin-bottom: 50px;
+        text-align: center;
+    }
+
+    figure{
+        background:var(--gray-0);
+        border-radius: 15px;
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+        margin: 0;
+        border: 1px solid #ecf5ff;        
+
+        img{
+            aspect-ratio: 2.5 / 1;
+            object-fit: contain;
+            filter: grayscale(1);
+        }
+
+        &:hover img {
+            filter: grayscale(0);
+        }
+    }
+
+    .slick-slide > div {
+        margin:0 10px;
+    }
+
+    .slick-dots{
+        bottom: -65px;
+    }
+
+    .slick-dots li button{        
+
+        &::before{
+            background: #CFE5FF;
+            border-radius: 20px;            
+        }
+        
+    }
+
+    .slick-prev, .slick-next{
+        width: 30px;
+        height: 30px;
+
+        &::before{
+          color: var(--primary-default);
+          font-size: 30px;    
+        }
+    }
+}

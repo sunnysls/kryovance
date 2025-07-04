@@ -1,0 +1,107 @@
+.productCart-flex{
+    margin-bottom: 30px;
+
+    figure{
+        border-radius: 10px;
+        border: 1px solid #D9D9D9;
+        background: var(--gray-0);
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 30px 45px;
+        margin-bottom: 15px;
+    }
+
+    .product-heading{
+        margin-bottom: 8px;
+
+        a{
+            color: var(--gray-400);
+            font-size: 1.125rem;
+            font-weight: 600;            
+
+            &:hover{
+                color: var(--primary-red);
+            }
+        }
+    }
+
+    .product-subtext{
+        color: var(--gray-300);        
+        font-size: 0.938rem;        
+        font-weight: 300;
+        margin-bottom: 10px;    
+    }
+
+    .price-area{
+        display: flex;
+        justify-content: space-between;
+        border-top: 1px solid #D9D9D9;;
+        border-bottom: 1px solid #D9D9D9;
+        padding: 8px 0;
+    }
+
+    .main-price{
+        color: var(--gray-1000);        
+        font-size: 1.125rem;
+        font-style: normal;
+        font-weight: 600;
+
+        span{
+            color: var(--gray-600);            
+            font-size: 0.875rem;            
+            font-weight: 400;            
+            text-decoration-line: line-through;
+        }
+    }
+
+    .discount{
+        color: var(--gray-0);        
+        font-size: 0.75rem;        
+        font-weight: 500;
+        padding: 0px 10px;
+        border-radius: 20px;
+        background: var(--primary-red);
+    }
+
+    .cart-ctaflex{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 10px;
+    }
+
+    .cart-plus-flex{
+        
+        .input-group{
+            display: flex;
+            border: 1px solid #D9D9D9;  
+            border-radius: 5px;     
+            
+            .form-control{
+                padding:0 5px;
+                color: var(--gray-1000);                
+                font-size: 14px;                
+                font-weight: 500;     
+                border-top: none;
+                width: 25px;
+                border-bottom: none;           
+            }
+
+            .btn{
+                padding: 0px 10px;
+                color: var(--primary-default);
+            }
+        }
+    }
+
+    .cart-cta{
+        button{
+            background: var(--primary-default);
+            border-radius: 20px;
+            padding: 7px;
+            border: none;
+        }
+    }
+}
